@@ -1,0 +1,420 @@
+/*For the body section*/
+body{
+	margin: 0;
+	width: 100%;
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/v.jpg");/*To add a background in  the website*/
+}
+/*For the header section*/
+header{
+	width: 100%;
+	text-align: center;/*To make the text to place in the center*/
+}
+/*For the navigation section*/
+nav{
+	width: 100%;/*For the width of the object*/
+	color:white;
+	margin-right: 5px;/*For the space between the objects*/
+}
+nav ul li{
+	width: 100%;
+	height: 25px;
+	list-style: none;
+	background-color: #333;/*For the background colour*/
+	margin-right: 25px;
+	text-align: center;
+}
+nav ul li a:hover{
+	font-size: 30px;/*To increase the font size during hover, hover makes the website attractive by adding the animation effects*/
+}
+a{
+	color: inherit;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+}
+.flow{
+	display: flex;/* To display the object in the flex properties*/
+	flex-direction: column;/*To display the object in the column form*/
+	width: 300px;
+	height: 600px;
+}
+}
+.part{
+	border-radius: 5px;
+	height:174px;/*For the height of the image and the box*/
+	width: 300px;
+	border:5px solid green;
+}
+.big{
+	width: 500px;
+	height: 550px;
+}
+.cover{
+	width: 100%
+	height: 550px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.cover1{
+	width: 800px;
+	border:5px solid black;
+	margin-left: 80px;
+	border-radius: 10px;
+}
+.sec1,.sec2,.sec3{
+	height: 180px;
+border: 2px solid black;
+width: 260px;
+margin-right: 100px;
+border-radius: 10px;
+}
+.center{
+	text-align: center;
+	text-shadow: 2px 2px green;/*For the shadow of the text*/
+	font-style:italic;/*For the font-style of the text*/
+	font-family:serif;/*For the font-family of the text*/
+}
+.center1{
+	text-align: center;
+	font-style: italic;
+	font-family: cursive;
+}
+.center1 img{
+	border-radius: 50%;
+	width: 220px;
+	height: 200px;
+}
+.sec1{
+	margin-left: 20px;
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/nami.jpg");
+	background-size: 250px;/*For the background size of the imgae*/
+}
+.sec2{
+	margin-left: 50px;
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/nono.jpg");
+	background-size: 260px;
+}
+.sec3{
+	margin-left: 30px;
+    background: url("C:/Users/Bibek/Desktop/Web Development/logo/f.jpg");
+	background-size: 260px;
+}
+.margin{
+	font-variant: small-caps;
+	font-style: italic;
+	color:#880015;
+}
+.header1{
+	font-style: italic;
+	text-shadow: 2px 2px green;
+}
+.margin1{
+	font-variant: small-caps;
+	font-style: italic;
+	color:lightblue;
+}
+.side_cover a:hover{
+	background-color: yellow;
+}
+.photo{
+	text-align: center;
+}
+.photo img{
+	border-radius: 50%;
+}
+.info{
+	text-align: center;
+	border-bottom-style: dotted;
+}
+.short{
+	text-align: center;
+}
+.images{
+	height:230px;
+	width: 20%;
+	text-align: left;
+}
+.images1{
+	height:230px;
+	width: 20%;
+	text-align: left;
+}
+.detail{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+}
+.images img{/*img is used to indicate the image inside the class*/
+	width: 50px;
+	height: 50px;
+}
+.images1 img{
+	width: 50px;
+	height: 50px;
+}
+.test3{
+	text-align: right;
+}
+.developer{
+	border:5px solid black;
+	border-style: double;
+	border-radius: 5px 5px;
+	height: 150px;
+	text-align: center;
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/g.jpg");
+
+}
+.sub{
+	text-align: center;
+	border-bottom-style: double;
+}
+.bio{
+	text-align: center;
+   text-shadow: 2px 2px blue; 
+}
+.text2{
+	text-shadow: 2px 2px purple;
+	font-style: italic;
+}
+.head{
+	text-align: center;
+     text-shadow: 2px 2px yellow;
+     font-style: italic;
+     font-variant: small-caps;
+}
+/*This code is used in order to make the image rotate 360 including the image and text on one-one side*//*From here to .card:hover*/
+.cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-right: 15px;
+	padding-top: 50px;
+
+}
+.card{
+	width: 500px;
+	height: 300px;
+	border-radius: 5px;
+		
+}
+.front{
+	width: 500px;
+	height:300px;
+}
+.front {
+	width: 500px;
+	height: 300px;
+}
+.cards{
+	perspective: 700;
+}
+.card{
+	position: relative;
+	margin: 20px;
+	width: 500px;
+	height: 200px;
+	transition: all 0.6s ease;
+	transform-style: preserve-3d;
+}
+.card img{
+	width: 500px;
+	height:200px;
+	background:blue;
+	position: absolute;
+	backface-visibility: hidden;
+	border-radius: 20px;
+	box-shadow: 10px 10px;
+}
+.card img{
+
+	transform: rotateY(180deg);
+	
+}
+.card:hover{
+	transform: rotateY(180deg);
+}
+.text{
+	position: absolute;
+	top:100;
+	width: 500px;
+	height: 200px;
+	backface-visibility: hidden;
+	border-radius: 20px;
+	border-bottom: 5px;
+	box-shadow: 50px;
+	box-shadow: 10px 10px;
+}
+li{
+	padding:13px;
+}
+.color1{
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/o.jpg");
+	border-radius: 10px;
+	padding-bottom: 50px;
+	background-repeat: no-repeat;
+	background-size: 500px;
+}.color2{
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/o.jpg");
+	border-radius: 20px;
+	padding-bottom: 70px;
+background-size: 500px;
+}.color3{
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/o.jpg");
+	background-size: 500px;
+	border-radius: 20px;
+	padding-bottom: 30px;
+}.color4{
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/o.jpg");
+	border-radius: 20px;
+	padding-bottom: 70px;
+	background-size: 500px;
+}.color5{
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/o.jpg");
+	border-radius: 20px;
+	background-size: 500px;
+	padding-bottom: 40px;
+}
+.color6
+{
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/o.jpg");
+	background-size: 500px;
+	border-radius: 20px;
+	padding-bottom: 70px;
+}
+.heading{
+	text-shadow: 2px 2px purple;
+	font-style: italic;
+}
+.space,.space1,.space2{
+	
+}
+.divide{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 10px;/*Padding is done inorder to make the text and other object looks suitable to the website.*/
+}
+.divide1{
+	padding: 10px;
+}
+footer{
+	height: 650px
+	width:500px;
+	border:5px solid green;
+}
+.location{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 300px;
+}
+.location1{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	color: #333;/*For the font color of the text*/
+	font-variant: small-caps;
+	font-style: italic;
+	font-family:cursive;
+}
+.cv{
+	text-align: center;
+	text-shadow: 2px 2px blue;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;/*For the space between the text and object*/
+	flex-wrap: wrap;/*To make the object break the chain and appear in the next line with the same flex properties*/
+}
+.column{
+	width: 400px;
+	height: 580px;
+	text-align: center;
+	
+}
+.test{
+	width: 390px;
+	height: 25px;
+	text-align: center;
+}.column img{
+	height: 180px;
+	padding-left: 55px;
+	border-radius: 50%;
+	padding-right: 55px;
+	padding-top: 10px;
+}
+.color{
+	background-color: #A0F9FF;
+	border-radius: 5px 5px;/*For making the border looks more attractive to view in the website*/
+}
+.pic img{
+	width: 25px;
+	height: 15px;
+}
+footer{
+	border:10px solid grey;/*For the border in the text and pictures*/
+	height: 220px;
+	width: 1330px;
+	background-color: grey;
+}
+.footer1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 100px;
+	list-style: none;
+	padding-left: 50px;
+}
+.body2{
+	background: url("C:/Users/Bibek/Desktop/Web Development/logo/e.jpg");
+	background-repeat: no-repeat;/*For not making the background repetative in the background*/
+	background-size: 1400px;
+}
+.top{
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.wireframe{
+	text-align: center;
+	font-size: 20px;
+}
+.front{
+	height: 650px;
+}
+.front img{
+	margin-left: 200px;
+}
+/*This code is used to make the website reponsive for the mobile users*/
+@media screen and (max-width: 600px){
+	header{flex-direction: column;}
+	nav ul {flex-direction: column;}
+	nav ul li{width: 90%;margin: 1%; padding: 1%;}
+	.navigation{flex-direction: column;}
+	footer{flex-direction: column; height: 750px;}
+	.footer1{flex-direction: column; height: 750px;}
+	.sec1{flex-direction: column;}
+	.cover{flex-direction: column;}
+	.cover1{flex-direction: column;width: 300px; margin-right: 500px;}
+	.side_cover{margin-left: 25px;}
+	.detail{flex-direction: column;}
+	.developers{flex-direction: column;height: 400px;}
+	.developer{height: 380px;}
+	.images{height: 550px;margin-left:220px;}
+	.images1{margin-left: 220px;}
+	.column{margin-left: 40px;}
+	.card{margin-left: 10px;}
+	.head{margin-left: 20px;}
+	.location{flex-direction: column;width: 150px;}
+	.divide{flex-direction: column;}
+	iframe{width: 460px;}
+	.space1,.space{padding-bottom: 10px;}
+}
